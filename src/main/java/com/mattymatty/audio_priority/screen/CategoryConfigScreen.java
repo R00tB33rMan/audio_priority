@@ -4,14 +4,12 @@ import com.mattymatty.audio_priority.Configs;
 import com.mattymatty.audio_priority.client.AudioPriority;
 import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.gui.screen.ScreenTexts;
 import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.CyclingButtonWidget;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.text.BaseText;
-import net.minecraft.text.LiteralText;
-import net.minecraft.text.TranslatableText;
+import net.minecraft.text.LiteralTextContent;
+import net.minecraft.text.TranslatableTextContent;
 
 import java.io.IOException;
 import java.util.stream.IntStream;
